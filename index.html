@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script defer src="quotes.js"></script>
+    <script defer src="index.js"></script>
+    <title>CSE391</title>
+</head>
+
+<body>
+    <div id="ct">
+        <div class="corner" style="background: #ff78c4;" data-font="#2b2a4c" data-border="#d3d04f" id="left_top"></div>
+        <div class="corner" style="background: #d3d04f;" data-font="#b31312" data-border="#2b2a4c" id="left_bottom">
+        </div>
+        <div class="corner" style="background: #2b2a4c;" data-font="#ff78c4" data-border="#b31312" id="right_top"></div>
+        <div class="corner" style="background: #b31312;" data-font="#d3d04f" data-border="#ff78c4" id="right_bottom">
+        </div>
+        <span id="quote-author"></span>
+        <blockquote>
+            <p>&ldquo;<i id="quote-text">
+                </i>&rdquo;</p>
+        </blockquote>
+    </div>
+    <div id="ct2">
+        <div class="my-search">
+            <label for="convert-text">Convert</label>
+            <input type="text" class="search-input" name="convert-text">
+
+            <select class="ct2-select">
+                <option value="kg-to-lb">kg to lb</option>
+                <option value="lb-to-kg">lb to kg</option>
+            </select>
+
+            <input type="button" class="convert-btn" value="Go">
+            <div class="convert-text"></div>
+        </div>
+        <div id="ct3">
+            <div style="display: inline-block;">
+                <label for="list-text">input Series of Number</label>
+                <input type="text" class="list-input" name="list-text">
+            </div>
+            <div style="display: inline;">
+                <div>
+                    <div style="display: inline;">Max:</div>
+                    <div style="display: inline;" id="max-val"></div>
+                </div>
+
+
+                <div>
+                    <div style="display: inline;">Min:</div>
+                    <div style="display: inline;" id="min-val"></div>
+                </div>
+
+                <div>
+                    <div style="display: inline;">Sum:</div>
+                    <div style="display: inline;" id="sum-val"></div>
+                </div>
+
+                <div>
+                    <div style="display: inline;">Average:</div>
+                    <div style="display: inline;" id="average-val"></div>
+                </div>
+                <div>
+                    <div style="display: inline;">Reverse Order:</div>
+                    <div style="display: inline;" id="reverse-val"></div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

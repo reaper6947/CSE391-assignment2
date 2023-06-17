@@ -1,0 +1,97 @@
+body {
+  background: #4c3d3d;
+}
+#ct {
+  height: 150px;
+  width: 30%;
+  border: 1px solid black;
+  margin: 100px auto;
+  text-align: center;
+  position: relative;
+  background-color: #fff;
+  padding: 15px;
+  border-width: 0.4rem;
+}
+
+#quote-author {
+  background: #4c3d3d;
+  padding: 0 10px;
+  font-size: 20px;
+  position: relative;
+  top: -28px;
+}
+.corner {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  transform: rotate(-45deg);
+  position: absolute;
+}
+
+#left_top {
+  top: -16px;
+  left: -16px;
+}
+#right_top {
+  top: -16px;
+  right: -16px;
+}
+#left_bottom {
+  bottom: -16px;
+  left: -16px;
+}
+#right_bottom {
+  bottom: -16px;
+  right: -16px;
+}
+p {
+  padding-top: 13px;
+  font-size: 18px;
+}
+
+#ct2 {
+  height: 50px;
+  width: 40%;
+  border: 1px solid black;
+  margin: 100px auto;
+  text-align: center;
+  position: relative;
+  background-color: #fff;
+  padding: 15px;
+  border-width: 0.4rem;
+}
+
+.my-search {
+  width: 100%;
+  display: inline;
+}
+
+.ct2-select,
+.convert-btn,
+.convert-text {
+  display: inline-block;
+}
+
+.search-input {
+  display: inline-block;
+  float: none;
+}
+
+#ct3 {
+  height: 150px;
+  width: 40%;
+  border: 1px solid black;
+  margin: 100px auto;
+  text-align: center;
+  position: relative;
+  background-color: #fff;
+  padding: 15px;
+  border-width: 0.4rem;
+}
+
+.list-input,
+.convert-text {
+  float: none;
+  display: inline-block;
+}
