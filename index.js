@@ -113,7 +113,14 @@ document.getElementById('strip-blank').addEventListener('click', function () {
 document.getElementById('add-numbers').addEventListener('click', function () {
     const mySentence2 = document.getElementById('text-area').value
     const words2 = mySentence2.split(/\r?\n/)
-    const newWords = words2.map(el => '6' + el)
+    const newWords = words2.map((el) =>{ 
+        if(el[0] == "6"){
+           return 6 + el
+        }else{
+           return '6. ' + el
+        }
+        
+    })
     document.getElementById('text-area').value = newWords.join('\n')
 })
 
